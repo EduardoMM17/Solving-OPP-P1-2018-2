@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Eduardo Medina/Desktop/ReposGit/Solving-OPP-P1-2018-2/Functions.cpp" "C:/Users/Eduardo Medina/Desktop/ReposGit/Solving-OPP-P1-2018-2/cmake-build-debug/CMakeFiles/Solving_OPP_P1_2018_2.dir/Functions.cpp.obj"
   "C:/Users/Eduardo Medina/Desktop/ReposGit/Solving-OPP-P1-2018-2/Stack.cpp" "C:/Users/Eduardo Medina/Desktop/ReposGit/Solving-OPP-P1-2018-2/cmake-build-debug/CMakeFiles/Solving_OPP_P1_2018_2.dir/Stack.cpp.obj"
   "C:/Users/Eduardo Medina/Desktop/ReposGit/Solving-OPP-P1-2018-2/main.cpp" "C:/Users/Eduardo Medina/Desktop/ReposGit/Solving-OPP-P1-2018-2/cmake-build-debug/CMakeFiles/Solving_OPP_P1_2018_2.dir/main.cpp.obj"
   )

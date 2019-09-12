@@ -1,10 +1,19 @@
 #ifndef SOLVING_OPP_P1_2018_2_STACK_H
 #define SOLVING_OPP_P1_2018_2_STACK_H
 
+enum Colors{Red, Yellow, BLue, Black};
+
+struct Position{
+    int x, y;
+    void setX(int);
+    void setY(int);
+};
 
 struct Point{
-    int x, y;
-    int position(int x,int y);
+    Position pos;
+    Colors color;
+    void setPos(int,int);
+    void setColor(int);
 
 };
 
@@ -25,6 +34,7 @@ public:
     Point Peek();
     int getSize();
     bool isEmpty();
+    void addAccordToColor(Stack*);
 };
 
 

@@ -122,6 +122,33 @@ Solving_OPP_P1_2018_2/fast:
 	$(MAKE) -f CMakeFiles\Solving_OPP_P1_2018_2.dir\build.make CMakeFiles/Solving_OPP_P1_2018_2.dir/build
 .PHONY : Solving_OPP_P1_2018_2/fast
 
+Functions.obj: Functions.cpp.obj
+
+.PHONY : Functions.obj
+
+# target to build an object file
+Functions.cpp.obj:
+	$(MAKE) -f CMakeFiles\Solving_OPP_P1_2018_2.dir\build.make CMakeFiles/Solving_OPP_P1_2018_2.dir/Functions.cpp.obj
+.PHONY : Functions.cpp.obj
+
+Functions.i: Functions.cpp.i
+
+.PHONY : Functions.i
+
+# target to preprocess a source file
+Functions.cpp.i:
+	$(MAKE) -f CMakeFiles\Solving_OPP_P1_2018_2.dir\build.make CMakeFiles/Solving_OPP_P1_2018_2.dir/Functions.cpp.i
+.PHONY : Functions.cpp.i
+
+Functions.s: Functions.cpp.s
+
+.PHONY : Functions.s
+
+# target to generate assembly for a file
+Functions.cpp.s:
+	$(MAKE) -f CMakeFiles\Solving_OPP_P1_2018_2.dir\build.make CMakeFiles/Solving_OPP_P1_2018_2.dir/Functions.cpp.s
+.PHONY : Functions.cpp.s
+
 Stack.obj: Stack.cpp.obj
 
 .PHONY : Stack.obj
@@ -185,6 +212,9 @@ help:
 	@echo ... Solving_OPP_P1_2018_2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Functions.obj
+	@echo ... Functions.i
+	@echo ... Functions.s
 	@echo ... Stack.obj
 	@echo ... Stack.i
 	@echo ... Stack.s

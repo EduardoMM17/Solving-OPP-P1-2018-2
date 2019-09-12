@@ -1,11 +1,23 @@
 #include <iostream>
 #include "Stack.h"
 
-int Point::position(int x, int y) {
+void Position::setX(int x) {
     this->x = x;
-    this->y =y;
-    enum colors{Red, Yellow, BLue, Black};
 }
+
+void Position::setY(int y) {
+    this->y = y;
+}
+
+void Point::setPos(int x, int y) {
+    pos.setX(x);
+    pos.setY(y);
+}
+
+void Point::setColor(int Color) {
+    this->color = Colors(Color);
+}
+
 
 Stack::Stack() {
     top = nullptr;
@@ -18,7 +30,6 @@ void Stack::push(Point P1) {
     newNode->next = top;
     top = newNode;
     size++;
-    std::cout<<"\nA node has been correctly added to the top\n".
 }
 
 void Stack::pop() {
@@ -56,3 +67,40 @@ bool Stack::isEmpty() {
         return true;
     }
 }
+
+void Stack::addAccordToColor(Stack* S1) {
+    Node* aux = S1->top;
+    while(aux!= nullptr){
+        if(aux->pointOfNode.color == 0){
+            std::cout<<"\nAdding colors to the stack of color red.\n";
+            Node* newNode = new Node();
+            newNode->pointOfNode = S1->top->pointOfNode;
+            newNode->next = top;
+            top = newNode;
+        }
+        else if(aux->pointOfNode.color == 1){
+            std::cout<<"\nAdding colors to the stack of color yellow.\n";
+            Node* newNode = new Node();
+            newNode->pointOfNode = S1->top->pointOfNode;
+            newNode->next = top;
+            top = newNode;
+        }
+        else if(aux->pointOfNode.color == 2){
+            std::cout<<"\nAdding colors to the stack of color blue.\n";
+            Node* newNode = new Node();
+            newNode->pointOfNode = S1->top->pointOfNode;
+            newNode->next = top;
+            top = newNode;
+        }
+        else if(aux->pointOfNode.color == 3){
+            std::cout<<"\nAdding colors to the stack of color black.\n";
+            Node* newNode = new Node();
+            newNode->pointOfNode = S1->top->pointOfNode;
+            newNode->next = top;
+            top = newNode;
+        }
+        aux = aux->next;
+    }
+}
+
+

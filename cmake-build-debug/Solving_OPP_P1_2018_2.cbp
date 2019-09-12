@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Eduardo Medina/Desktop/ReposGit/Solving-OPP-P1-2018-2/Functions.cpp">
+			<Option target="Solving_OPP_P1_2018_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Eduardo Medina/Desktop/ReposGit/Solving-OPP-P1-2018-2/Functions.h">
+			<Option target="Solving_OPP_P1_2018_2"/>
+		</Unit>
 		<Unit filename="C:/Users/Eduardo Medina/Desktop/ReposGit/Solving-OPP-P1-2018-2/Stack.cpp">
 			<Option target="Solving_OPP_P1_2018_2"/>
 		</Unit>

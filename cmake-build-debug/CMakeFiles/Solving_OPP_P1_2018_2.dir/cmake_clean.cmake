@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Solving_OPP_P1_2018_2.dir/main.cpp.obj"
   "CMakeFiles/Solving_OPP_P1_2018_2.dir/Stack.cpp.obj"
+  "CMakeFiles/Solving_OPP_P1_2018_2.dir/Functions.cpp.obj"
   "Solving_OPP_P1_2018_2.pdb"
   "Solving_OPP_P1_2018_2.exe"
   "Solving_OPP_P1_2018_2.exe.manifest"
